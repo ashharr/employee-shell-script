@@ -17,7 +17,6 @@ echo $eno
 }
 Insert()
 {
-clear
 echo "$eno"
 echo "Enter Employee Name:"
 read enm
@@ -36,7 +35,6 @@ echo ""
 }
 Display()
 {
-clear
 echo "__________________________________________________"
 echo "
 Employee Details "
@@ -63,7 +61,6 @@ printf "\n __________________________________________________\n"
 }
 Search()
 {
-clear
 echo "Enter Employee NO: "
 read no
 printf "\n__________________________________________________\n"
@@ -113,7 +110,6 @@ echo "__________________________________________________"
 }
 Delete()
 {
-clear
 f=0
 echo "Enter Employee NO: "
 read no
